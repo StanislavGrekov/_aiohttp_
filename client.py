@@ -4,7 +4,7 @@ import asyncio
 # Города, по которым можно получить данные о погоде
 cities = ['Poletayevo', 'Miass', 'Chelyabinsk']
 # Ключ для работы сервиса Openweathermap
-key = '2a4ff86f9aaa70041ec8e82db64abf56'
+key = ' '
 
 async def main():
     async with aiohttp.ClientSession() as client:
